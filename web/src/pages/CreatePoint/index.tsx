@@ -10,7 +10,7 @@ import Dropzone from '../../components/Dropzone'
 import './styles.css'
 
 import logo from '../../assets/logo.svg'
-import { LeafletEvent, LeafletMouseEvent } from 'leaflet'
+import { LeafletMouseEvent } from 'leaflet'
 
 // sempre que criar estado para array ou objeto, deve informar o tipo da variável que será recebida
 interface Item {

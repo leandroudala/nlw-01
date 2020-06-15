@@ -78,7 +78,7 @@ class PointsController{
 
         }
     
-        return res.json({serializedPoint, items})
+        return res.json({point: serializedPoint, items})
     }
 }
 

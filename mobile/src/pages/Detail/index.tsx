@@ -37,7 +37,7 @@ const Detail = () => {
       api.get(`points/${routeParams.point_id}`).then(res => {
         setData(res.data)
       })
-    })
+    }, [])
 
     if (!data.point) {
       return (
